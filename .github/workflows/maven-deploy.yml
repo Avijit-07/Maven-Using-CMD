@@ -1,0 +1,18 @@
+name: Java CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Build with Maven
+        uses: actions/checkout@v1
+        env:
+          GITHUB_USERNAME: x-access-token
+          GITHUB_TOKEN: 46f3cdb6cb1c519f29183f07c1373bc2779fe352
+      - run: |
+          mvn --settings settings.xml deploy
