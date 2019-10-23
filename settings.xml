@@ -20,7 +20,7 @@
                 <repository>
                     <id>github</id>
                     <name>GitHub OWNER Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/Avijit-07</url>
+                    <url>https://maven.pkg.github.com/NishkarshRaj</url>
                 </repository>
             </repositories>
         </profile>
@@ -29,7 +29,7 @@
     <servers>
         <server>
             <id>github</id>
-            <username>Avijit-07</username>
+            <username>NishkarshRaj</username>
             <password>46f3cdb6cb1c519f29183f07c1373bc2779fe352</password>
         </server>
     </servers>
