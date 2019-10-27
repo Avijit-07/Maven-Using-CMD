@@ -13,6 +13,6 @@ jobs:
         uses: actions/checkout@v1
         env:
           GITHUB_USERNAME: x-access-token
-          GITHUB_TOKEN: 46f3cdb6cb1c519f29183f07c1373bc2779fe352
+          GITHUB_TOKEN: c1700c3b1d9f0d6fab1e3e4ed6d898d7ae9cfbd8
       - run: |
-          mvn deploy -Dregistry=https://maven.pkg.github.com/Avijit-07 -Dtoken=GH_TOKEN
+          mvn deploy:deploy-file -Dregistry=https://maven.pkg.github.com/Avijit-07 -Dtoken=$GITHUB_TOKEN

@@ -117,12 +117,7 @@
         <repository>
             <id>github</id>
             <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/NishkarshRaj/Maven-Using-CMD</url>
+            <url>https://maven.pkg.github.com/Avijit-07/Maven-Using-CMD</url>
         </repository>
-        <!--<snapshotRepository>
-            <id>snapshotrepo</id>
-            <name>snapshotrepo</name>
-            <url>http://localhost:8081/repository/snapshotrepo/</url>
-        </snapshotRepository>-->
     </distributionManagement>
 </project>
